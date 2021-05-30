@@ -24,7 +24,7 @@ const Home = () => {
 
                             <div style={{marginTop:'12rem'}}>
                                 <h1 style={{textAlign:'center', color:'#147EFB', fontSize:'50px'}}>A Heathy Friend in<br/> your pocket</h1>
-                                <p style={{textAlign:'center', color:'grey', marginTop:'1rem'}}>Share your thoughts freely</p>
+                                <p style={{textAlign:'center', color:'grey', marginTop:'1rem'}}>Share your thoughts freely with ypur friend</p>
                             </div>
 
                             <div className="d-flex justify-content-center my-5">
@@ -38,14 +38,14 @@ const Home = () => {
 
                         <Slide right>
                         <div className="image my-5">
-                            <img src={Image1} height='604px' width='571px' style={{borderRadius:'20px', filter:'drop-shadow(-20px 10px 30px rgba(0, 0, 0, 0.25))'}}></img>
+                            <img src={Image1} alt='' height='604px' width='571px' style={{borderRadius:'20px', filter:'drop-shadow(-20px 10px 30px rgba(0, 0, 0, 0.25))'}}></img>
                         </div>
                         </Slide>
 
                     </div>
                 </div>
 
-                <div className="features">
+                <div className="features" style={{marginBottom:'5rem'}}>
 
                     <div className="d-flex justify-content-center my-3">
                         <Slide bottom>

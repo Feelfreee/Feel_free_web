@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+import Logo from './logo.svg'
 
 
 export default function ButtonAppBar() {
@@ -7,11 +8,10 @@ export default function ButtonAppBar() {
     <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{backgroundColor:'#1890FF'}}>
           <div className="container-fluid">
-            <a className="navbar-brand" style={{color:'#1890FF'}}>Feel Free</a>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            
+            <a className="navbar-brand" style={{color:'#1890FF'}}>
+              <img src={Logo} alt="" width="40" height="40" style={{marginRight:'1rem'}} />
+              Feel Free
+            </a>            
           </div>
       </nav>
     </div>
