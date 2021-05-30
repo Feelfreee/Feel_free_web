@@ -24,11 +24,15 @@ const Home = () => {
 
                             <div style={{marginTop:'12rem'}}>
                                 <h1 style={{textAlign:'center', color:'#147EFB', fontSize:'50px'}}>A Heathy Friend in<br/> your pocket</h1>
-                                <p style={{textAlign:'center', color:'grey', marginTop:'1rem'}}>Share your thoughts freely with ypur friend</p>
+                                <p style={{textAlign:'center', color:'grey', marginTop:'1rem'}}>Share your thoughts freely with your friend</p>
                             </div>
 
                             <div className="d-flex justify-content-center my-5">
-                                <button type="button large" style={{width:'70%'}} className="btn btn-primary">Download App</button>
+                                <button type="button large" style={{width:'70%'}} className="btn btn-primary">
+                                <a href='https://drive.google.com/file/d/1_sS4VLzWBAKkMVKgYyxutiH5IuuW_uMU/view?usp=sharing' style={{color:'white', textDecoration:'none'}}>
+                                     Download App
+                                     </a>
+                                </button>
                             </div>
 
                         </Slide>
