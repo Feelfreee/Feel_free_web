@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
 
-      <Route path={['/posts','/myposts','/create','/help']}>
+      <Route path={['/']}>
         <Home />
       </Route>
       
