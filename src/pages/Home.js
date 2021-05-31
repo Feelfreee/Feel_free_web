@@ -29,7 +29,7 @@ const Home = () => {
 
                             <div className="d-flex justify-content-center my-5">
                                 <button type="button large" style={{width:'70%'}} className="btn btn-primary">
-                                <a href='https://drive.google.com/file/d/1_sS4VLzWBAKkMVKgYyxutiH5IuuW_uMU/view?usp=sharing' style={{color:'white', textDecoration:'none'}}>
+                                <a href='https://cutt.ly/NnfgMK1' style={{color:'white', textDecoration:'none'}}>
                                      Download App
                                      </a>
                                 </button>
